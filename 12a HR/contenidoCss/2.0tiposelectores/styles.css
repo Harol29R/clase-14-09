@@ -1,0 +1,28 @@
+/*
+1. Selector por etiqueta: cambia estilo a todas las etiquetas en cuestion, se coloca directamente el nombre de la etiqueta
+2. Selector por clase: cambia o midifica el estilo en donde se mencione la clase en el atributo class para crear un estilo por clase se coloca.nombreEstilo
+3. Selector por id: modifica el estilo de quienes posean el atributo id
+4. Selector Universal *
+*/
+/********************************************************************************/
+
+/*1. Por etiquta*/
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+/*2. Selector por clase o class*/
+
+.subtitulo{
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+}
+/*3. Selector por ID: */
+#info{
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
